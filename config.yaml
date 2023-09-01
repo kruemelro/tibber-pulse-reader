@@ -1,0 +1,22 @@
+name: "Tibber Pulse Reader"
+version: "1.1.0"
+slug: folder
+description: >-
+  "This tool reads out data from a Tibber Pulse locally (without roundtrip trough the cloud)."
+arch:
+  - amd64
+url: "https://github.com/micw/tibber-pulse-reader"
+environment:
+  - LOG_LEVEL
+  - TIBBER_PULSE_SOURCE
+  - TIBBER_PULSE_HOST
+  - TIBBER_PULSE_USERNAME
+  - TIBBER_PULSE_PASSWORD
+  - PUBLISH_MQTT_ENABLED
+  - PUBLISH_MQTT_HOST
+  - PUBLISH_MQTT_TLS
+  - PUBLISH_MQTT_PORT
+  - PUBLISH_MQTT_USERNAME
+  - PUBLISH_MQTT_PASSWORD
+  - PUBLISH_MQTT_TOPIC
+  - PUBLISH_MQTT_VALUE
